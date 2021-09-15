@@ -1,4 +1,4 @@
-#### ・Twitter (twitter.com/MarumasaJs)
+#### ・Twitter https://twitter.com/MarumasaJs
 
 <br>
 
