@@ -1,7 +1,6 @@
-
-*　Twitter https://twitter.com/MarumasaJs
-*　CurseForge https://twitter.com/MarumasaJs
-*　SpigotMC https://twitter.com/MarumasaJs
+* Twitter https://twitter.com/MarumasaJs
+* CurseForge https://twitter.com/MarumasaJs
+* SpigotMC https://twitter.com/MarumasaJs
 
 <br>
 
