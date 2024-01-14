@@ -1,3 +1,7 @@
+DiscordのBot作ってたり
+MinecraftのMod作ってたり
+VRしてたりする
+
 * Twitter https://twitter.com/MarumasaJs
 * CurseForge https://www.curseforge.com/members/malmasa/projects
 * SpigotMC https://www.spigotmc.org/members/marumasa.1641302
