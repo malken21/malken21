@@ -1,5 +1,5 @@
 DiscordのBot作ってたり
-MinecraftのMod作ってたり
+MinecraftのMod、プラグイン作ってたり
 VRしてたりする
 
 * Twitter https://twitter.com/MarumasaJs
