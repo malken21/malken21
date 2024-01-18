@@ -1,5 +1,5 @@
 # Marumasa Link
 
-- CurseForge <https://marumasa.dev/cf>
-- SpigotMC <https://marumasa.dev/sp>
-- X (Twitter) <https://marumasa.dev/x>
+- CurseForge <https://pf.marumasa.dev/cf>
+- SpigotMC <https://pf.marumasa.dev/sp>
+- X (Twitter) <https://pf.marumasa.dev/x>
