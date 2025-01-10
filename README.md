@@ -1,6 +1,6 @@
 DiscordのBot作ってたり
 MinecraftのMod、プラグイン作ってたり
-PLC いじっていたりする
+シェーダー いじっていたりする
 
 * Twitter https://twitter.com/MarumasaJs
 * CurseForge https://www.curseforge.com/members/malmasa/projects
