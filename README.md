@@ -1,6 +1,8 @@
 DiscordのBot作ってたり
 MinecraftのMod、プラグイン作ってたり
-シェーダー いじっていたり
+シェーダー いじっていたり...
+
+PID制御は最強です!!
 
 * Twitter https://twitter.com/MarumasaJs
 * CurseForge https://www.curseforge.com/members/malmasa/projects
