@@ -1,3 +1,3 @@
 ---
-redirect_to: https://twitter.com/MarumasaJs
+redirect_to: https://x.com/MarumasaVR
 ---
