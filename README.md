@@ -4,7 +4,7 @@ MinecraftのMod、プラグイン作ってたり シェーダー いじってい
 
 PID制御は最強です!!
 
-* Twitter https://twitter.com/MarumasaJs
+* Twitter https://twitter.com/MarumasaVR
 * CurseForge https://www.curseforge.com/members/malmasa/projects
 * SpigotMC https://www.spigotmc.org/members/marumasa.1641302
 
