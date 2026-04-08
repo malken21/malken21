@@ -1,11 +1,10 @@
-相対性理論が大好きです！パワーエレクトロニクスが大好きです！！
 
-MinecraftのMod、プラグイン作ってたり シェーダー いじっていたり...
+タングステンとPID制御は最強だと思って生きている
 
-PID制御は最強です!!
-
-* Twitter https://twitter.com/MarumasaVR
 * CurseForge https://www.curseforge.com/members/malmasa/projects
 * SpigotMC https://www.spigotmc.org/members/marumasa.1641302
 
-[![Top Langs](https://github-readme-stats.marumasa.dev/api/top-langs/?username=malken21&langs_count=20&layout=compact&theme=transparent&locale=ja)](https://github.com/anuraghazra/github-readme-stats)
+できること
+- 600V以下で受電する一部例外を除いた一般用電気工作物の電気工事
+
+[![Languages](languages.svg)](https://marumasa.dev/)
