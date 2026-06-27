@@ -420,16 +420,20 @@ legend_loop:
     madd x23, x22, x4, x5
 
     // Circle
-    mov x5, x0         // store cx in x5 (preserve x25!)
-    mov x6, x1         // store cy in x6 (preserve x25!)
-    
+    // cx/cy must survive the append_* calls below. append_int (called
+    // directly and via append_fixed_point) clobbers x0-x5, so cx cannot
+    // live in x5. Use callee-saved x24 for cx; x6 is untouched by the
+    // utility leaves, so cy stays there.
+    mov x24, x0        // store cx in x24 (callee-saved)
+    mov x6, x1         // store cy in x6
+
     ldr x0, =legend_part1
     bl append_str
     mov x0, x23
     bl append_fixed_point
     ldr x0, =legend_part1a
     bl append_str
-    mov x0, x5
+    mov x0, x24
     bl append_int
     ldr x0, =legend_part2
     bl append_str
@@ -449,7 +453,7 @@ legend_loop:
     bl append_fixed_point
     ldr x0, =legend_part5a
     bl append_str
-    add x0, x5, #15
+    add x0, x24, #15
     bl append_int
     ldr x0, =legend_part6
     bl append_str
