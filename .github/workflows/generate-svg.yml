@@ -24,31 +24,56 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Fetch languages for all repositories and aggregate
-          gh api graphql --paginate --slurp -f query='
-            query($endCursor: String) {
-              user(login: "malken21") {
-                repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER], isFork: false, after: $endCursor) {
-                  pageInfo {
-                    endCursor
-                    hasNextPage
-                  }
-                  nodes {
-                    languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-                      edges {
-                        size
-                        node {
-                          name
-                          color
-                        }
-                      }
-                    }
+          # Dynamically fetch languages from user repositories, organizations, and contributions
+          gh api graphql -f query='
+            fragment RepoLang on Repository {
+              id
+              languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                edges {
+                  size
+                  node {
+                    name
+                    color
                   }
                 }
               }
             }
-          ' | jq '.[].data.user.repositories.nodes[].languages.edges[] | {name: .node.name, size: .size, color: .node.color}' | \
-          jq -s 'group_by(.name) | map({name: .[0].name, size: map(.size) | add, color: .[0].color}) | sort_by(.size) | reverse | .[:100] | .[] | "\(.name)\t\(.size)\t\(.color // "#8b949e")"' -r > languages.dat
+
+            query {
+              user(login: "malken21") {
+                repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                  nodes { ...RepoLang }
+                }
+                organizations(first: 100) {
+                  nodes {
+                    repositories(first: 100, isFork: false) {
+                      nodes { ...RepoLang }
+                    }
+                  }
+                }
+                repositoriesContributedTo(first: 100, contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY], includeUserRepositories: true) {
+                  nodes { ...RepoLang }
+                }
+              }
+            }
+          ' | jq '
+            [
+              .data.user.repositories.nodes[]?,
+              .data.user.organizations.nodes[].repositories.nodes[]?,
+              .data.user.repositoriesContributedTo.nodes[]?
+            ]
+            | unique_by(.id)
+            | [.[].languages.edges[]? | {name: .node.name, size: .size, color: .node.color}]
+            | group_by(.name)
+            | map({
+                name: .[0].name,
+                size: (map(.size) | add),
+                color: (.[0].color // "#8b949e")
+              })
+            | sort_by(-.size)
+            | .[:100][]
+            | "\(.name)\t\(.size)\t\(.color)"
+          ' -r > languages.dat
           echo "Fetched data (first 5 lines):"
           head -n 5 languages.dat
 
