@@ -44,13 +44,6 @@ jobs:
                 repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
                   nodes { ...RepoLang }
                 }
-                organizations(first: 100) {
-                  nodes {
-                    repositories(first: 100, isFork: false) {
-                      nodes { ...RepoLang }
-                    }
-                  }
-                }
                 repositoriesContributedTo(first: 100, contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY], includeUserRepositories: true) {
                   nodes { ...RepoLang }
                 }
@@ -59,7 +52,6 @@ jobs:
           ' | jq '
             [
               .data.user.repositories.nodes[]?,
-              .data.user.organizations.nodes[].repositories.nodes[]?,
               .data.user.repositoriesContributedTo.nodes[]?
             ]
             | unique_by(.id)
