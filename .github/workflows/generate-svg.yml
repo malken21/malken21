@@ -28,7 +28,7 @@ jobs:
           gh api graphql --paginate --slurp -f query='
             query($endCursor: String) {
               user(login: "malken21") {
-                repositories(first: 100, ownerAffiliations: OWNER, isFork: false, after: $endCursor) {
+                repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER], isFork: false, after: $endCursor) {
                   pageInfo {
                     endCursor
                     hasNextPage
