@@ -18,7 +18,7 @@
       <rect x="0.00%" width="17.48%" height="100%" fill="#b07219" class="bar-rect" style="animation-delay: 0.50s" />
       <rect x="17.48%" width="16.25%" height="100%" fill="#3572A5" class="bar-rect" style="animation-delay: 0.55s" />
       <rect x="33.73%" width="13.22%" height="100%" fill="#A97BFF" class="bar-rect" style="animation-delay: 0.60s" />
-      <rect x="46.95%" width="11.62%" height="100%" fill="#178600" class="bar-rect" style="animation-delay: 0.65s" />
+      <rect x="46.95%" width="11.62%" height="100%" fill="#7355dd" class="bar-rect" style="animation-delay: 0.65s" />
       <rect x="58.57%" width="10.18%" height="100%" fill="#dea584" class="bar-rect" style="animation-delay: 0.70s" />
       <rect x="68.75%" width="9.15%" height="100%" fill="#f1e05a" class="bar-rect" style="animation-delay: 0.75s" />
       <rect x="77.90%" width="4.51%" height="100%" fill="#3178c6" class="bar-rect" style="animation-delay: 0.80s" />
@@ -51,7 +51,7 @@
   <text class="legend-item" style="animation-delay: 1.02s" x="45" y="125" fill="#c9d1d9" font-family="sans-serif" font-size="12">Python 16.25%</text>
   <circle class="legend-item" style="animation-delay: 1.04s" cx="30" cy="140" r="5" fill="#A97BFF" />
   <text class="legend-item" style="animation-delay: 1.04s" x="45" y="145" fill="#c9d1d9" font-family="sans-serif" font-size="12">Kotlin 13.22%</text>
-  <circle class="legend-item" style="animation-delay: 1.06s" cx="30" cy="160" r="5" fill="#178600" />
+  <circle class="legend-item" style="animation-delay: 1.06s" cx="30" cy="160" r="5" fill="#7355dd" />
   <text class="legend-item" style="animation-delay: 1.06s" x="45" y="165" fill="#c9d1d9" font-family="sans-serif" font-size="12">C# 11.62%</text>
   <circle class="legend-item" style="animation-delay: 1.08s" cx="30" cy="180" r="5" fill="#dea584" />
   <text class="legend-item" style="animation-delay: 1.08s" x="45" y="185" fill="#c9d1d9" font-family="sans-serif" font-size="12">Rust 10.18%</text>
