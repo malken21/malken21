@@ -21,28 +21,28 @@
       <rect x="42.38%" width="10.90%" height="100%" fill="#A97BFF" class="bar-rect" style="animation-delay: 0.65s" />
       <rect x="53.28%" width="8.94%" height="100%" fill="#e34c26" class="bar-rect" style="animation-delay: 0.70s" />
       <rect x="62.22%" width="8.55%" height="100%" fill="#3178c6" class="bar-rect" style="animation-delay: 0.75s" />
-      <rect x="70.77%" width="8.33%" height="100%" fill="#dea584" class="bar-rect" style="animation-delay: 0.80s" />
-      <rect x="79.10%" width="7.52%" height="100%" fill="#f1e05a" class="bar-rect" style="animation-delay: 0.85s" />
-      <rect x="86.62%" width="3.91%" height="100%" fill="#663399" class="bar-rect" style="animation-delay: 0.90s" />
-      <rect x="90.53%" width="1.94%" height="100%" fill="#222c37" class="bar-rect" style="animation-delay: 0.95s" />
-      <rect x="92.47%" width="1.43%" height="100%" fill="#6594b9" class="bar-rect" style="animation-delay: 1.00s" />
-      <rect x="93.90%" width="1.35%" height="100%" fill="#41b883" class="bar-rect" style="animation-delay: 1.05s" />
-      <rect x="95.25%" width="1.07%" height="100%" fill="#6e4a7e" class="bar-rect" style="animation-delay: 1.10s" />
-      <rect x="96.32%" width="0.83%" height="100%" fill="#012456" class="bar-rect" style="animation-delay: 1.15s" />
-      <rect x="97.15%" width="0.58%" height="100%" fill="#6E4C13" class="bar-rect" style="animation-delay: 1.20s" />
-      <rect x="97.73%" width="0.57%" height="100%" fill="#89e051" class="bar-rect" style="animation-delay: 1.25s" />
-      <rect x="98.30%" width="0.42%" height="100%" fill="#ffc200" class="bar-rect" style="animation-delay: 1.30s" />
-      <rect x="98.72%" width="0.28%" height="100%" fill="#384d54" class="bar-rect" style="animation-delay: 1.35s" />
-      <rect x="99.00%" width="0.20%" height="100%" fill="#844FBA" class="bar-rect" style="animation-delay: 1.40s" />
-      <rect x="99.20%" width="0.17%" height="100%" fill="#5686a5" class="bar-rect" style="animation-delay: 1.45s" />
-      <rect x="99.37%" width="0.16%" height="100%" fill="#E22837" class="bar-rect" style="animation-delay: 1.50s" />
-      <rect x="99.53%" width="0.08%" height="100%" fill="#7e7eff" class="bar-rect" style="animation-delay: 1.55s" />
-      <rect x="99.61%" width="0.07%" height="100%" fill="#701516" class="bar-rect" style="animation-delay: 1.60s" />
-      <rect x="99.68%" width="0.06%" height="100%" fill="#4F5D95" class="bar-rect" style="animation-delay: 1.65s" />
-      <rect x="99.74%" width="0.06%" height="100%" fill="#C1F12E" class="bar-rect" style="animation-delay: 1.70s" />
-      <rect x="99.80%" width="0.04%" height="100%" fill="#8b949e" class="bar-rect" style="animation-delay: 1.75s" />
-      <rect x="99.84%" width="0.02%" height="100%" fill="#fcb32c" class="bar-rect" style="animation-delay: 1.80s" />
-      <rect x="99.86%" width="0.00%" height="100%" fill="#355570" class="bar-rect" style="animation-delay: 1.85s" />
+      <rect x="70.77%" width="8.34%" height="100%" fill="#dea584" class="bar-rect" style="animation-delay: 0.80s" />
+      <rect x="79.11%" width="7.52%" height="100%" fill="#f1e05a" class="bar-rect" style="animation-delay: 0.85s" />
+      <rect x="86.63%" width="3.91%" height="100%" fill="#663399" class="bar-rect" style="animation-delay: 0.90s" />
+      <rect x="90.54%" width="1.94%" height="100%" fill="#222c37" class="bar-rect" style="animation-delay: 0.95s" />
+      <rect x="92.48%" width="1.43%" height="100%" fill="#6594b9" class="bar-rect" style="animation-delay: 1.00s" />
+      <rect x="93.91%" width="1.35%" height="100%" fill="#41b883" class="bar-rect" style="animation-delay: 1.05s" />
+      <rect x="95.26%" width="1.07%" height="100%" fill="#6e4a7e" class="bar-rect" style="animation-delay: 1.10s" />
+      <rect x="96.33%" width="0.83%" height="100%" fill="#012456" class="bar-rect" style="animation-delay: 1.15s" />
+      <rect x="97.16%" width="0.58%" height="100%" fill="#6E4C13" class="bar-rect" style="animation-delay: 1.20s" />
+      <rect x="97.74%" width="0.57%" height="100%" fill="#89e051" class="bar-rect" style="animation-delay: 1.25s" />
+      <rect x="98.31%" width="0.42%" height="100%" fill="#ffc200" class="bar-rect" style="animation-delay: 1.30s" />
+      <rect x="98.73%" width="0.28%" height="100%" fill="#384d54" class="bar-rect" style="animation-delay: 1.35s" />
+      <rect x="99.01%" width="0.20%" height="100%" fill="#844FBA" class="bar-rect" style="animation-delay: 1.40s" />
+      <rect x="99.21%" width="0.17%" height="100%" fill="#5686a5" class="bar-rect" style="animation-delay: 1.45s" />
+      <rect x="99.38%" width="0.16%" height="100%" fill="#E22837" class="bar-rect" style="animation-delay: 1.50s" />
+      <rect x="99.54%" width="0.08%" height="100%" fill="#7e7eff" class="bar-rect" style="animation-delay: 1.55s" />
+      <rect x="99.62%" width="0.07%" height="100%" fill="#701516" class="bar-rect" style="animation-delay: 1.60s" />
+      <rect x="99.69%" width="0.06%" height="100%" fill="#4F5D95" class="bar-rect" style="animation-delay: 1.65s" />
+      <rect x="99.75%" width="0.06%" height="100%" fill="#C1F12E" class="bar-rect" style="animation-delay: 1.70s" />
+      <rect x="99.81%" width="0.04%" height="100%" fill="#8b949e" class="bar-rect" style="animation-delay: 1.75s" />
+      <rect x="99.85%" width="0.02%" height="100%" fill="#fcb32c" class="bar-rect" style="animation-delay: 1.80s" />
+      <rect x="99.87%" width="0.00%" height="100%" fill="#355570" class="bar-rect" style="animation-delay: 1.85s" />
     </svg>
   </g>
   <circle class="legend-item" style="animation-delay: 1.00s" cx="30" cy="100" r="5" fill="#7355dd" />
@@ -58,7 +58,7 @@
   <circle class="legend-item" style="animation-delay: 1.10s" cx="30" cy="200" r="5" fill="#3178c6" />
   <text class="legend-item" style="animation-delay: 1.10s" x="45" y="205" fill="#c9d1d9" font-family="sans-serif" font-size="12">TypeScript 8.55%</text>
   <circle class="legend-item" style="animation-delay: 1.12s" cx="30" cy="220" r="5" fill="#dea584" />
-  <text class="legend-item" style="animation-delay: 1.12s" x="45" y="225" fill="#c9d1d9" font-family="sans-serif" font-size="12">Rust 8.33%</text>
+  <text class="legend-item" style="animation-delay: 1.12s" x="45" y="225" fill="#c9d1d9" font-family="sans-serif" font-size="12">Rust 8.34%</text>
   <circle class="legend-item" style="animation-delay: 1.14s" cx="30" cy="240" r="5" fill="#f1e05a" />
   <text class="legend-item" style="animation-delay: 1.14s" x="45" y="245" fill="#c9d1d9" font-family="sans-serif" font-size="12">JavaScript 7.52%</text>
   <circle class="legend-item" style="animation-delay: 1.16s" cx="30" cy="260" r="5" fill="#663399" />
