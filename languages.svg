@@ -15,9 +15,9 @@
   </defs>
   <g clip-path="url(#bar-clip)">
     <svg x="20" y="50" width="720" height="12">
-      <rect x="0.00%" width="44.51%" height="100%" fill="#b07219" class="bar-rect" style="animation-delay: 0.50s" />
-      <rect x="44.51%" width="13.25%" height="100%" fill="#A97BFF" class="bar-rect" style="animation-delay: 0.55s" />
-      <rect x="57.76%" width="11.99%" height="100%" fill="#dea584" class="bar-rect" style="animation-delay: 0.60s" />
+      <rect x="0.00%" width="44.50%" height="100%" fill="#b07219" class="bar-rect" style="animation-delay: 0.50s" />
+      <rect x="44.50%" width="13.24%" height="100%" fill="#A97BFF" class="bar-rect" style="animation-delay: 0.55s" />
+      <rect x="57.74%" width="12.01%" height="100%" fill="#dea584" class="bar-rect" style="animation-delay: 0.60s" />
       <rect x="69.75%" width="7.18%" height="100%" fill="#3572A5" class="bar-rect" style="animation-delay: 0.65s" />
       <rect x="76.93%" width="3.98%" height="100%" fill="#3178c6" class="bar-rect" style="animation-delay: 0.70s" />
       <rect x="80.91%" width="3.29%" height="100%" fill="#7355dd" class="bar-rect" style="animation-delay: 0.75s" />
@@ -46,11 +46,11 @@
     </svg>
   </g>
   <circle class="legend-item" style="animation-delay: 1.00s" cx="30" cy="100" r="5" fill="#b07219" />
-  <text class="legend-item" style="animation-delay: 1.00s" x="45" y="105" fill="#c9d1d9" font-family="sans-serif" font-size="12">Java 44.51%</text>
+  <text class="legend-item" style="animation-delay: 1.00s" x="45" y="105" fill="#c9d1d9" font-family="sans-serif" font-size="12">Java 44.50%</text>
   <circle class="legend-item" style="animation-delay: 1.02s" cx="30" cy="120" r="5" fill="#A97BFF" />
-  <text class="legend-item" style="animation-delay: 1.02s" x="45" y="125" fill="#c9d1d9" font-family="sans-serif" font-size="12">Kotlin 13.25%</text>
+  <text class="legend-item" style="animation-delay: 1.02s" x="45" y="125" fill="#c9d1d9" font-family="sans-serif" font-size="12">Kotlin 13.24%</text>
   <circle class="legend-item" style="animation-delay: 1.04s" cx="30" cy="140" r="5" fill="#dea584" />
-  <text class="legend-item" style="animation-delay: 1.04s" x="45" y="145" fill="#c9d1d9" font-family="sans-serif" font-size="12">Rust 11.99%</text>
+  <text class="legend-item" style="animation-delay: 1.04s" x="45" y="145" fill="#c9d1d9" font-family="sans-serif" font-size="12">Rust 12.01%</text>
   <circle class="legend-item" style="animation-delay: 1.06s" cx="30" cy="160" r="5" fill="#3572A5" />
   <text class="legend-item" style="animation-delay: 1.06s" x="45" y="165" fill="#c9d1d9" font-family="sans-serif" font-size="12">Python 7.18%</text>
   <circle class="legend-item" style="animation-delay: 1.08s" cx="30" cy="180" r="5" fill="#3178c6" />
